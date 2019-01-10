@@ -1,15 +1,9 @@
 
-{
-    margin:0;
-    padding:0;
-}
-
+.class-for-index
 h1 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Anton', sans-serif;
     text-align: center;
-    height:35px;
-    
-}
+    height:35px; }
     
 .subhead {
    text-align: center; 
@@ -59,4 +53,172 @@ li.active a {
     font-weight: bold;
     color:#333;
 }
+ 
+
+ 
+
+
+
+.class-for-glossary
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    height:35px; }
+    
+.subhead {
+   text-align: center; 
+   font-family: 'Baloo Tamma', cursive;
+   border-top:1px solid #000000;
+   border-bottom: 1px solid #000000;
+}
+
+ nav {
+     margin: 50px;
+     
+    
   }
+
+  ul {
+      overflow: auto;
+      list-style-type: none;
+      
+  }
+
+  li {
+      height:30px;
+      float:left;
+      margin-right:0px;
+      border-right:1px solid #aaa;
+      padding:12px;
+      align-items: center;
+  }
+
+  li:last-child {
+      border-right: none;
+  }
+li a {
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'Patrick Hand', cursive;
+    text-transform:uppercase;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    text-align: center
+}
+
+li a:hover{
+    color:#666;
+}
+li.active a {
+    font-weight: bold;
+    color:#333;
+}
+
+table, th,td {
+    border: 1px solid black;
+}
+
+.class-for-jobs
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    height:35px;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1em;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 32px; }
+    
+.subhead {
+    margin-top: 10px;
+   text-align: center; 
+   font-family: 'Baloo Tamma', cursive;
+   border-top:1px solid #000000;
+   border-bottom: 1px solid #000000;
+  
+}
+ nav {
+     margin: 50px;
+     }
+
+  ul {
+      overflow: auto;
+      list-style-type: none;
+      
+  }
+
+  li {
+      height:30px;
+      float:left;
+      margin-right:0px;
+      border-right:1px solid #aaa;
+      padding:12px;
+      align-items: center;
+  }
+
+  li:last-child {
+      border-right: none;
+  }
+li a {
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'Patrick Hand', cursive;
+    text-transform:uppercase;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    text-align: center
+}
+
+li a:hover{
+    color:#666;
+}
+li.active a {
+    font-weight: bold;
+    color:#333;
+}
+
+article {
+    columns:2;
+    column-gap: 20px;
+    line-height: 20px;
+    column-rule: 2px outset #444;     
+}
+
+.media {
+    -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
+    filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+
+@media only all and (max-width: 1300px) {
+    .weatherforcastbox{
+        display: none;
+    }  
+
+    @media only all and (max-width: 1200px) {
+        .collumn{
+            width: 31%;
+        }
+    
+    }
+        @media only all and (max-width: 900px) {
+        .collumn{
+            width: 47%;
+        }
+    
+    }
+    @media only all and (max-width: 600px) {
+        .collumn{
+            width: 100%;
+        }
+    } 
+
+h1 {
+    overflow: hidden;
+}
+
+}
