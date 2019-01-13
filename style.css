@@ -129,6 +129,8 @@ li.active a {
 article {
     columns:3;
     column-gap: 20px;
+    line-height: 20px;
+    column-rule: 2px outset #000000;     
 }
 
 h5 {
@@ -157,7 +159,7 @@ h4{
     border-bottom: 2px solid #000000;
     font-size: 16px;
 }
-img {
+.img {
     border-bottom: 2px solid #000000;
 }
 
@@ -234,7 +236,7 @@ li.active a {
 }
 
 section {
-    columns:2;
+    columns:0;
     column-gap: 20px;
     column-rule: 2px solid #000000;
 }
