@@ -55,8 +55,19 @@ li.active a {
 }
  
 
- 
 
+
+footer {
+ border: 2px solid#000000;
+ background-color: #000000;
+}
+
+p1 {
+
+  color:#aaa;  
+   text-align: center;
+   font-weight: bold; 
+}
 
 
 .class-for-glossary
@@ -113,11 +124,53 @@ li.active a {
     font-weight: bold;
     color:#333;
 }
+ 
 
-table, th,td {
-    border: 1px solid black;
+article {
+    columns:3;
+    column-gap: 20px;
 }
 
+h5 {
+   
+    font-size: 16px;
+    border-bottom: 2px solid #000000;
+    /* margin-bottom: 0.9cm; */
+    margin-top: 0.9cm;
+    padding-top: 1cm;
+
+}
+p {
+    border-bottom: 2px solid #000000;
+    margin-bottom: 1.1cm;
+    padding-bottom: 1.5cm;
+}
+h6 {
+    font-size: 16px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 1cm;
+
+} 
+
+h4{
+    margin-bottom: 1cm;
+    border-bottom: 2px solid #000000;
+    font-size: 16px;
+}
+img {
+    border-bottom: 2px solid #000000;
+}
+
+
+footer {
+    border: 2px solid#000000;
+    background-color: #000000;
+   
+     color:#aaa;  
+      text-align: center;
+      font-weight: bold; 
+   }
+   
 .class-for-jobs
 
 h1 {
@@ -180,12 +233,27 @@ li.active a {
     color:#333;
 }
 
-article {
+section {
     columns:2;
     column-gap: 20px;
-    line-height: 20px;
-    column-rule: 2px outset #444;     
+    column-rule: 2px solid #000000;
 }
+
+
+  
+.p2 {
+     margin-bottom: 1cm;
+}
+
+.p3 {
+    margin-top: 1cm;
+}
+h3{
+    font-size: 24px;
+    padding-top: 0.5cm;
+
+}
+
 
 .media {
     -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
@@ -217,8 +285,139 @@ article {
         }
     } 
 
-h1 {
-    overflow: hidden;
 }
 
+.class-for-tutorials
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    height:35px;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1em;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 32px; }
+    
+.subhead {
+    margin-top: 10px;
+   text-align: center; 
+   font-family: 'Baloo Tamma', cursive;
+   border-top:1px solid #000000;
+   border-bottom: 1px solid #000000;
+  
 }
+ nav {
+     margin: 50px;
+     }
+
+  ul {
+      overflow: auto;
+      list-style-type: none;
+      
+  }
+
+  li {
+      height:30px;
+      float:left;
+      margin-right:0px;
+      border-right:1px solid #aaa;
+      padding:12px;
+      align-items: center;
+  }
+
+  li:last-child {
+      border-right: none;
+  }
+li a {
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'Patrick Hand', cursive;
+    text-transform:uppercase;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    text-align: center
+}
+
+li a:hover{
+    color:#666;
+}
+li.active a {
+    font-weight: bold;
+    color:#333;
+}
+
+article {
+    columns:3;
+    column-gap: 20px;
+    line-height: 20px;
+    column-rule: 2px outset #444;     
+}
+
+.class-for-reviews
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    height:35px;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1em;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 32px; }
+    
+.subhead {
+    margin-top: 10px;
+   text-align: center; 
+   font-family: 'Baloo Tamma', cursive;
+   border-top:1px solid #000000;
+   border-bottom: 1px solid #000000;
+  
+}
+ nav {
+     margin: 50px;
+     }
+
+  ul {
+      overflow: auto;
+      list-style-type: none;
+      
+  }
+
+  li {
+      height:30px;
+      float:left;
+      margin-right:0px;
+      border-right:1px solid #aaa;
+      padding:12px;
+      align-items: center;
+  }
+
+  li:last-child {
+      border-right: none;
+  }
+li a {
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'Patrick Hand', cursive;
+    text-transform:uppercase;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    text-align: center
+}
+
+li a:hover{
+    color:#666;
+}
+li.active a {
+    font-weight: bold;
+    color:#333;
+}
+
+
