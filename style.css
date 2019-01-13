@@ -159,7 +159,7 @@ h4{
     border-bottom: 2px solid #000000;
     font-size: 16px;
 }
-.img {
+img {
     border-bottom: 2px solid #000000;
 }
 
@@ -235,8 +235,8 @@ li.active a {
     color:#333;
 }
 
-section {
-    columns:0;
+aside {
+    columns:2;
     column-gap: 20px;
     column-rule: 2px solid #000000;
 }
