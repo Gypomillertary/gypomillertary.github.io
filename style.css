@@ -245,10 +245,8 @@ aside {
   
 .p2 {
      margin-bottom: 1cm;
-}
 
-.p3 {
-    margin-top: 1cm;
+
 }
 h3{
     font-size: 24px;
@@ -257,38 +255,42 @@ h3{
 }
 
 
-.media {
-    -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
-    filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
-    mix-blend-mode: multiply;
-    width: 100%;
-}
-
-@media only all and (max-width: 1300px) {
-    .weatherforcastbox{
-        display: none;
-    }  
-
-    @media only all and (max-width: 1200px) {
-        .collumn{
-            width: 31%;
-        }
-    
-    }
-        @media only all and (max-width: 900px) {
-        .collumn{
-            width: 47%;
-        }
-    
-    }
-    @media only all and (max-width: 600px) {
-        .collumn{
-            width: 100%;
-        }
-    } 
+@media(max-width:12000px)
+{
 
 }
 
+@media(max-width:1000px)
+{
+    h1{
+        font-size: 20;
+    }
+}
+
+@media  (max-width: 800px) {
+   
+   h1{
+       font-size: 18;
+   }
+    p3 {
+     font-size: 14px;
+    }
+
+    }
+
+@media (max-width:600px){
+
+    p3{
+        font-size: 1.5rem;
+    }
+   } 
+
+   @media (max-width:400px){
+
+    h1{
+        font-size: 16px;
+    }
+   }
 .class-for-tutorials
 
 
@@ -359,6 +361,19 @@ article {
     column-rule: 2px outset #444;     
 }
 
+p3 {
+    font-size: 14px;
+}
+
+footer {
+    border: 2px solid#000000;
+    background-color: #000000;
+   
+     color:#aaa;  
+      text-align: center;
+      font-weight: bold; 
+   }
+   
 .class-for-reviews
 
 
