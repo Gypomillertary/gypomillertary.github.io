@@ -1,19 +1,19 @@
 
-.class-for-index
+.class-for-index  /*This connect to the indext page*/
 h1 {
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-    height:35px; }
+    font-family: 'Anton', sans-serif; /*This is what font it is*/
+    text-align: center; /*this is where about thxt is aligned*/
+    height:35px; } /*this is the hight of the text*/
     
 .subhead {
-   text-align: center; 
-   font-family: 'Baloo Tamma', cursive;
-   border-top:1px solid #000000;
-   border-bottom: 1px solid #000000;
+   text-align: center; /*this is where about thxt is aligned*/
+   font-family: 'Baloo Tamma', cursive; /*This is what font it is*/
+   border-top:1px solid #000000; /*I have put a border at the top of the text*/
+   border-bottom: 1px solid #000000; /*I have put a border at the bottom of the text*/
 }
 
  nav {
-     margin: 50px;
+     margin: 50px; /*the navagation has a margin of 50px around it*/
      
     
   }
@@ -25,12 +25,12 @@ h1 {
   }
 
   li {
-      height:30px;
-      float:left;
+      height:30px; /*this is the hight of the text*/
+      float:left; /*the navagation will posstioned at the left*/
       margin-right:0px;
-      border-right:1px solid #aaa;
-      padding:12px;
-      align-items: center;
+      border-right:1px solid #aaa; /*I have put a border at the right side of the text*/
+      padding:12px; /* This will put sone space around the listed items*/
+      align-items: center; /*this is where about thxt is aligned*/
   }
 
   li:last-child {
@@ -38,11 +38,11 @@ h1 {
   }
 li a {
     text-decoration: none;
-    color: #ccc;
-    font-family: 'Patrick Hand', cursive;
-    text-transform:uppercase;
+    color: #ccc; /* this changes the colour of the text*/
+    font-family: 'Patrick Hand', cursive; /*This is what font it is*/
+    text-transform:uppercase; /*this makes the text all capitals*/
     transition: all 0.5s ease;
-    font-size: 20px;
+    font-size: 20px; /*this is the size of the font*/
     text-align: center
 }
 
@@ -50,7 +50,7 @@ li a:hover{
     color:#666;
 }
 li.active a {
-    font-weight: bold;
+    font-weight: bold; /*this makes the font go bold*/
     color:#333;
 }
  
@@ -59,26 +59,84 @@ li.active a {
 
 footer {
  border: 2px solid#000000;
- background-color: #000000;
+ background-color: #000000; /*this makkes the background of the footer go black*/
+}
+
+
+figure{
+    align-items: center
+}
+
+p5{
+    
+    font-size: 18px;
+    text-align: center; /*this is where about thxt is aligned*/
+    justify-content: center;
+    padding-bottom :1cm;
+    padding-left: 1cm;
+    padding-right:1cm;
+    margin-left: 2cm;
+    margin-right:2cm
+
 }
 
 p1 {
 
   color:#aaa;  
-   text-align: center;
+   text-align: center; /*this is where about thxt is aligned*/
    font-weight: bold; 
 }
+
+@media(max-width:12000px) /*this makes it go from desk top view to mobile view*/
+{
+  p6 {
+      font-size: 16px;
+  }
+}
+
+@media(max-width:1000px)
+{
+    h1{
+        font-size: 20;
+    }
+}
+
+@media  (max-width: 800px) {
+   
+   h1{
+       font-size: 18;
+   }
+    p6 {
+     font-size: 14px;
+    }
+
+    }
+
+@media (max-width:600px){
+   h1{
+        font-size: 0.7rem;
+    }
+    
+    p6{
+        font-size: 1.5rem;
+    }
+   } 
+
+   @media (max-width:400px){
+
+    
+   }
 
 
 .class-for-glossary
 h1 {
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-    height:35px; }
+    font-family: 'Anton', sans-serif; /*This is what font it is*/
+    text-align: center; /*this is where about thxt is aligned*/
+    height:35px; } /*this is the hight of the text*/
     
 .subhead {
-   text-align: center; 
-   font-family: 'Baloo Tamma', cursive;
+   text-align: center; /*this is where about thxt is aligned*/
+   font-family: 'Baloo Tamma', cursive; /*This is what font it is*/
    border-top:1px solid #000000;
    border-bottom: 1px solid #000000;
 }
@@ -96,7 +154,7 @@ h1 {
   }
 
   li {
-      height:30px;
+      height:30px; /*this is the hight of the text*/
       float:left;
       margin-right:0px;
       border-right:1px solid #aaa;
@@ -110,11 +168,11 @@ h1 {
 li a {
     text-decoration: none;
     color: #ccc;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', cursive; /*This is what font it is*/
     text-transform:uppercase;
     transition: all 0.5s ease;
     font-size: 20px;
-    text-align: center
+    text-align: center /*this is where about thxt is aligned*/
 }
 
 li a:hover{
@@ -127,7 +185,7 @@ li.active a {
  
 
 article {
-    columns:3;
+    columns:3; /*this splits the webpage into columns*/
     column-gap: 20px;
     line-height: 20px;
     column-rule: 2px outset #000000;     
@@ -137,7 +195,7 @@ h5 {
    
     font-size: 16px;
     border-bottom: 2px solid #000000;
-    /* margin-bottom: 0.9cm; */
+    margin-bottom: 0.9cm; 
     margin-top: 0.9cm;
     padding-top: 1cm;
 
@@ -169,20 +227,59 @@ footer {
     background-color: #000000;
    
      color:#aaa;  
-      text-align: center;
+      text-align: center; /*this is where about thxt is aligned*/
       font-weight: bold; 
    }
+   @media(max-width:12000px)
+   {
+     p6 {
+         font-size: 16px;
+     }
+   }
    
+   @media(max-width:1000px)
+   {
+       h1{
+           font-size: 20;
+       }
+   }
+   
+   @media  (max-width: 800px) {
+      
+      h1{
+          font-size: 18;
+      }
+       p6 {
+        font-size: 14px;
+       }
+   
+       }
+   
+   @media (max-width:600px){
+      h1{
+           font-size: 0.7rem;
+       }
+       
+       p6{
+           font-size: 1.5rem;
+       }
+      } 
+   
+      @media (max-width:400px){
+   
+       
+      }
+    
 .class-for-jobs
 
 h1 {
-    font-family: 'Anton', sans-serif;
-    text-align: center;
+    font-family: 'Anton', sans-serif;/*This is what font it is*/
+    text-align: center; /*this is where about thxt is aligned*/
     height:35px;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 1em;
-    text-align: center;
+    text-align: center; /*this is where about thxt is aligned*/
     padding: 0px;
     margin: 0px;
     margin-bottom: 32px; }
@@ -211,7 +308,7 @@ h1 {
       margin-right:0px;
       border-right:1px solid #aaa;
       padding:12px;
-      align-items: center;
+      align-items: center; /*this is where about thxt is aligned*/
   }
 
   li:last-child {
@@ -220,11 +317,11 @@ h1 {
 li a {
     text-decoration: none;
     color: #ccc;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', cursive; /*This is what font it is*/
     text-transform:uppercase;
     transition: all 0.5s ease;
     font-size: 20px;
-    text-align: center
+    text-align: center/*this is where about thxt is aligned*/
 }
 
 li a:hover{
@@ -257,7 +354,9 @@ h3{
 
 @media(max-width:12000px)
 {
-
+  p6 {
+      font-size: 16px;
+  }
 }
 
 @media(max-width:1000px)
@@ -272,44 +371,46 @@ h3{
    h1{
        font-size: 18;
    }
-    p3 {
+    p6 {
      font-size: 14px;
     }
 
     }
 
 @media (max-width:600px){
-
-    p3{
+   h1{
+        font-size: 0.7rem;
+    }
+    
+    p6{
         font-size: 1.5rem;
     }
    } 
 
    @media (max-width:400px){
 
-    h1{
-        font-size: 16px;
-    }
+    
    }
+
 .class-for-tutorials
 
 
 h1 {
-    font-family: 'Anton', sans-serif;
-    text-align: center;
+    font-family: 'Anton', sans-serif; /*This is what font it is*/
+    text-align: center; /*this is where about thxt is aligned*/
     height:35px;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 1em;
-    text-align: center;
+    text-align: center;/*this is where about thxt is aligned*/
     padding: 0px;
     margin: 0px;
     margin-bottom: 32px; }
     
 .subhead {
     margin-top: 10px;
-   text-align: center; 
-   font-family: 'Baloo Tamma', cursive;
+   text-align: center; /*this is where about thxt is aligned*/
+   font-family: 'Baloo Tamma', cursive; /*This is what font it is*/
    border-top:1px solid #000000;
    border-bottom: 1px solid #000000;
   
@@ -330,7 +431,7 @@ h1 {
       margin-right:0px;
       border-right:1px solid #aaa;
       padding:12px;
-      align-items: center;
+      align-items: center; /*this is where about thxt is aligned*/
   }
 
   li:last-child {
@@ -339,11 +440,11 @@ h1 {
 li a {
     text-decoration: none;
     color: #ccc;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', cursive;/*This is what font it is*/
     text-transform:uppercase;
     transition: all 0.5s ease;
     font-size: 20px;
-    text-align: center
+    text-align: center /*this is where about thxt is aligned*/
 }
 
 li a:hover{
@@ -370,32 +471,73 @@ footer {
     background-color: #000000;
    
      color:#aaa;  
-      text-align: center;
+      text-align: center; /*this is where about thxt is aligned*/
       font-weight: bold; 
    }
    
+   @media(max-width:12000px)
+{
+  p6 {
+      font-size: 16px;
+  }
+}
+
+@media(max-width:1000px)
+{
+    h1{
+        font-size: 20;
+    }
+}
+
+@media  (max-width: 800px) {
+   
+   h1{
+       font-size: 18;
+   }
+    p6 {
+     font-size: 14px;
+    }
+
+    }
+
+@media (max-width:600px){
+   h1{
+        font-size: 0.7rem;
+    }
+    
+    p6{
+        font-size: 1.5rem;
+    }
+   } 
+
+   @media (max-width:400px){
+
+    
+   }
+
 .class-for-reviews
 
 
 h1 {
-    font-family: 'Anton', sans-serif;
-    text-align: center;
+    font-family: 'Anton', sans-serif; /*This is what font it is*/
+    text-align: center; /*this is where about thxt is aligned*/
     height:35px;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 1em;
-    text-align: center;
+    text-align: center; /*this is where about thxt is aligned*/
     padding: 0px;
     margin: 0px;
     margin-bottom: 32px; }
     
 .subhead {
-    margin-top: 10px;
-   text-align: center; 
-   font-family: 'Baloo Tamma', cursive;
+    margin-top: 1cm;
+   text-align: center; /*this is where about thxt is aligned*/ 
+   font-family: 'Baloo Tamma', cursive; /*This is what font it is*/
    border-top:1px solid #000000;
    border-bottom: 1px solid #000000;
   
+
 }
  nav {
      margin: 50px;
@@ -413,7 +555,7 @@ h1 {
       margin-right:0px;
       border-right:1px solid #aaa;
       padding:12px;
-      align-items: center;
+      align-items: center; /*this is where about thxt is aligned*/
   }
 
   li:last-child {
@@ -422,11 +564,11 @@ h1 {
 li a {
     text-decoration: none;
     color: #ccc;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', cursive; /*This is what font it is*/
     text-transform:uppercase;
     transition: all 0.5s ease;
     font-size: 20px;
-    text-align: center
+    text-align: center /*this is where about thxt is aligned*/
 }
 
 li a:hover{
@@ -438,3 +580,47 @@ li.active a {
 }
 
 
+P6 {
+    font-size: 16px;
+}
+
+
+@media(max-width:12000px)
+{
+  p6 {
+      font-size: 16px;
+  }
+}
+
+@media(max-width:1000px)
+{
+    h1{
+        font-size: 20;
+    }
+}
+
+@media  (max-width: 800px) {
+   
+   h1{
+       font-size: 18;
+   }
+    p6 {
+     font-size: 14px;
+    }
+
+    }
+
+@media (max-width:600px){
+   h1{
+        font-size: 0.7rem;
+    }
+    
+    p6{
+        font-size: 1.5rem;
+    }
+   } 
+
+   @media (max-width:400px){
+
+    
+   }
